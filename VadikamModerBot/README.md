@@ -1,0 +1,2 @@
+# VadikamModerBot
+Simple ModerBot (template)
