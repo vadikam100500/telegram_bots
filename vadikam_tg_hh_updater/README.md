@@ -24,13 +24,15 @@ https://hh.ru/oauth/authorize?response_type=code&client_id=YOUR_CLIENT_ID
 + Теперь из терминала, после установления зависимостей, вы можете запустить бота:
   ```python3 bot.py```
 
-## Деплой на Heroku
+<!-- ## Деплой на Heroku
+
+UPD: Бесплатный Heroku не хранит базу, изменения для него будут внесены по мере возможности.
 + Зарегистрируйтесь на [Heroku](https://www.heroku.com/)
 + Создайте приложение (кнопка New → Create new app)
 + Теперь свяжите ваш аккаунт Heroku c GitHub: в интерфейсе Heroku зайдите в раздел Deploy, в разделе Deployment method выберите GitHub и нажмите на кнопку Connect to GitHub.
 + Добавить переменные окружения нужно вручную в настройках Heroku, в разделе Settings → Config Vars.
 Нажмите Reveal Config Vars и добавьте поочерёдно ключ и значение для каждой переменной
-+ Перейдите во вкладку Resources и активируйте переключатель напротив строки worker python bot.py
++ Перейдите во вкладку Resources и активируйте переключатель напротив строки worker python bot.py -->
 
 <img src="screen(2022-03-10T20-52-03).png"/>
 <img src="screen(2022-03-10T20-52-10).png"/>
